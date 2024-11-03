@@ -4,15 +4,18 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
 
 const links = <>
-            <li className="text-white"><NavLink to="/">Home</NavLink></li>
-            <li className="text-white"><a>Statistics</a></li>
-            <li className="text-white"><a>Dashboard</a></li>
+            <li className=""><NavLink to="/">Home</NavLink></li>
+            <li className=""><a>Statistics</a></li>
+            <li className=""><a>Dashboard</a></li>
 
 </>
 
 
     return (
-        <div className="navbar bg-purple-500">
+        <div className="bg-purple-500 rounded-xl">
+         <div>
+         <div>
+         <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost  text-white lg:hidden">
@@ -38,7 +41,7 @@ const links = <>
           <a className="btn btn-ghost text-white text-xl">Gadget Heaven</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="text-white menu menu-horizontal px-1">
           {links}
           </ul>
         </div>
@@ -46,7 +49,24 @@ const links = <>
           <a className=""><i className="p-2 text-gray-500 mr-2 rounded-full bg-white fa-solid fa-cart-shopping"></i></a>
           <i className="p-2 text-gray-500 rounded-full bg-white fa-regular fa-heart"></i>
         </div>
+        
       </div>
+         </div>
+     <div className="">
+     <div className="py-10 pb-36">
+        <div className="text-white text-center">
+          <div className="max-w-3xl mx-auto">
+            <h1 className="text-4xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
+            <p className="py-6 text-sm">
+            Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!.
+            </p>
+            <button className="bg-white rounded-3xl text-sm text-purple-700 font-semibold py-2 px-5">Shop Now</button>
+          </div>
+        </div>
+      </div>
+     </div>
+         </div>
+        </div>
     );
 };
 

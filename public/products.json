@@ -1,0 +1,212 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Smartphone X200",
+      "product_image": "https://i.ibb.co.com/LkRFBQJ/dej.webp",
+      "category": "phones",
+      "price": 799,
+      "description": "A high-performance smartphone with an ultra-clear display and long-lasting battery.",
+      "specification": [
+        "6.7-inch OLED display",
+        "128GB storage",
+        "12MP dual camera",
+        "5000mAh battery",
+        "5G compatible"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "color": "Space Gray"
+    },
+    {
+      "product_id": 2,
+      "product_title": "Laptop Pro 15",
+      "product_image": "https://i.ibb.co.com/87cYd1V/hp-elitebook.jpg",
+      "category": "computers",
+      "price": 1299,
+      "description": "Powerful laptop with advanced graphics and seamless multitasking capability.",
+      "specification": [
+        "15.6-inch Retina display",
+        "256GB SSD",
+        "16GB RAM",
+        "Intel i7 processor",
+        "Integrated graphics"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "color": "Silver"
+    },
+    {
+      "product_id": 3,
+      "product_title": "Smart Watch Series 5",
+      "product_image": "https://i.ibb.co.com/1nbxwp9/71R.jpg",
+      "category": "smart watches",
+      "price": 349,
+      "description": "Stay connected with this feature-rich smartwatch, perfect for fitness and health tracking.",
+      "specification": [
+        "1.8-inch AMOLED display",
+        "Heart rate and sleep monitoring",
+        "GPS enabled",
+        "Water-resistant up to 50 meters"
+      ],
+      "availability": false,
+      "rating": 4.2,
+      "color": "Black"
+    },
+    {
+      "product_id": 4,
+      "product_title": "Wireless Charger Stand",
+      "product_image": "https://i.ibb.co.com/nP3J8qf/usbphonechargers.jpg",
+      "category": "chargers",
+      "price": 59,
+      "description": "Fast wireless charger stand compatible with a wide range of devices.",
+      "specification": [
+        "10W fast charging",
+        "Compatible with Qi-enabled devices",
+        "Overcharge protection",
+        "LED indicator"
+      ],
+      "availability": true,
+      "rating": 4.0,
+      "color": "White"
+    },
+    {
+      "product_id": 5,
+      "product_title": "Portable Power Bank 20000mAh",
+      "product_image": "https://i.ibb.co.com/StbVqPf/420-75-lg.jpg",
+      "category": "power banks",
+      "price": 99,
+      "description": "High-capacity power bank with fast charging capability for multiple devices.",
+      "specification": [
+        "20000mAh capacity",
+        "Dual USB output",
+        "Fast charge support",
+        "Compact and lightweight"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "color": "Black"
+    },
+    {
+      "product_id": 6,
+      "product_title": "Laptop Pro 14",
+      "product_image": "https://i.ibb.co.com/GQtp8wZ/computer.webp",
+      "category": "computers",
+      "price": 599,
+      "description": "Lightweight tablet with high-resolution display, ideal for media and productivity.",
+      "specification": [
+        "10.5-inch display",
+        "64GB storage",
+        "8MP rear camera",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.1,
+      "color": "Silver"
+    },
+    {
+      "product_id": 7,
+      "product_title": "Smart Watch Series 4",
+      "product_image": "https://i.ibb.co.com/D4Y7LRs/653.jpg",
+      "category": "smart watches",
+      "price": 199,
+      "description": "Experience immersive sound with these noise-canceling wireless earbuds.",
+      "specification": [
+        "Active noise cancellation",
+        "Bluetooth 5.0",
+        "Up to 6 hours playback",
+        "Touch controls"
+      ],
+      "availability": false,
+      "rating": 4.6,
+      "color": "White"
+    },
+    {
+      "product_id": 8,
+      "product_title": "Smartphone S10 Lite",
+      "product_image": "https://i.ibb.co.com/r3wpyr1/jbn.webp",
+      "category": "phones",
+      "price": 499,
+      "description": "Budget-friendly smartphone with powerful performance and sleek design.",
+      "specification": [
+        "6.1-inch display",
+        "64GB storage",
+        "Dual SIM support",
+        "4000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "color": "Blue"
+    },
+    {
+      "product_id": 9,
+      "product_title": "Wire Charger Stand",
+      "product_image": "https://i.ibb.co.com/P6qVLBY/6cable.jpg",
+      "category": "chargers",
+      "price": 1599,
+      "description": "High-performance gaming laptop with powerful GPU and immersive display.",
+      "specification": [
+        "17.3-inch FHD display",
+        "512GB SSD",
+        "16GB RAM",
+        "NVIDIA GTX 1660",
+        "Intel i7 processor"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "color": "Black"
+    },
+    {
+      "product_id": 10,
+      "product_title": "Wireless power banks",
+      "product_image": "https://i.ibb.co.com/42y9YtW/A1223H11.webp",
+      "category": "power banks",
+      "price": 149,
+      "description": "Premium wireless earbuds with excellent sound quality and noise reduction.",
+      "specification": [
+        "Bluetooth 5.1",
+        "Up to 8 hours playback",
+        "Noise reduction",
+        "Water-resistant"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "color": "Graphite"
+    },
+    {
+        "product_id": 1,
+        "product_title": "Smartphone X200",
+        "product_image": "https://i.ibb.co.com/LkRFBQJ/dej.webp",
+        "category": "phones",
+        "price": 799,
+        "description": "A high-performance smartphone with an ultra-clear display and long-lasting battery.",
+        "specification": [
+          "6.7-inch OLED display",
+          "128GB storage",
+          "12MP dual camera",
+          "5000mAh battery",
+          "5G compatible"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "color": "Space Gray"
+      },
+      {
+        "product_id": 2,
+        "product_title": "Laptop Pro 15",
+        "product_image": "https://i.ibb.co.com/87cYd1V/hp-elitebook.jpg",
+        "category": "computers",
+        "price": 1299,
+        "description": "Powerful laptop with advanced graphics and seamless multitasking capability.",
+        "specification": [
+          "15.6-inch Retina display",
+          "256GB SSD",
+          "16GB RAM",
+          "Intel i7 processor",
+          "Integrated graphics"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "color": "Silver"
+      }
+  ]
+  
