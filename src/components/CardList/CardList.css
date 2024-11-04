@@ -1,0 +1,5 @@
+.active{
+    border-radius: 32px;
+box-shadow: inset 0px 4px 50px 0px rgba(11, 11, 11, 0.15);
+background: rgb(255, 255, 255);
+}

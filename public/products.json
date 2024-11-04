@@ -13,7 +13,7 @@
         "5000mAh battery",
         "5G compatible"
       ],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.5,
       "color": "Space Gray"
     },
@@ -21,7 +21,7 @@
       "product_id": 2,
       "product_title": "Laptop Pro 15",
       "product_image": "https://i.ibb.co.com/87cYd1V/hp-elitebook.jpg",
-      "category": "computers",
+      "category": "Laptops",
       "price": 1299,
       "description": "Powerful laptop with advanced graphics and seamless multitasking capability.",
       "specification": [
@@ -31,7 +31,7 @@
         "Intel i7 processor",
         "Integrated graphics"
       ],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.8,
       "color": "Silver"
     },
@@ -48,15 +48,15 @@
         "GPS enabled",
         "Water-resistant up to 50 meters"
       ],
-      "availability": false,
+      "availability": "Not Available",
       "rating": 4.2,
       "color": "Black"
     },
     {
       "product_id": 4,
-      "product_title": "Wireless Charger Stand",
-      "product_image": "https://i.ibb.co.com/nP3J8qf/usbphonechargers.jpg",
-      "category": "chargers",
+      "product_title": "Laptop Pro 15",
+      "product_image": "https://i.ibb.co.com/1G4Tv3W/Microsoft.webp",
+      "category": "Laptops",
       "price": 59,
       "description": "Fast wireless charger stand compatible with a wide range of devices.",
       "specification": [
@@ -65,7 +65,7 @@
         "Overcharge protection",
         "LED indicator"
       ],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.0,
       "color": "White"
     },
@@ -82,7 +82,7 @@
         "Fast charge support",
         "Compact and lightweight"
       ],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.3,
       "color": "Black"
     },
@@ -90,7 +90,7 @@
       "product_id": 6,
       "product_title": "Laptop Pro 14",
       "product_image": "https://i.ibb.co.com/GQtp8wZ/computer.webp",
-      "category": "computers",
+      "category": "Laptops",
       "price": 599,
       "description": "Lightweight tablet with high-resolution display, ideal for media and productivity.",
       "specification": [
@@ -99,7 +99,7 @@
         "8MP rear camera",
         "5000mAh battery"
       ],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.1,
       "color": "Silver"
     },
@@ -116,7 +116,7 @@
         "Up to 6 hours playback",
         "Touch controls"
       ],
-      "availability": false,
+      "availability": "Not Available",
       "rating": 4.6,
       "color": "White"
     },
@@ -133,15 +133,15 @@
         "Dual SIM support",
         "4000mAh battery"
       ],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.3,
       "color": "Blue"
     },
     {
       "product_id": 9,
-      "product_title": "Wire Charger Stand",
-      "product_image": "https://i.ibb.co.com/P6qVLBY/6cable.jpg",
-      "category": "chargers",
+      "product_title": "Laptop Pro 13",
+      "product_image": "https://i.ibb.co.com/PhDcQHS/editing.webp",
+      "category": "Laptops",
       "price": 1599,
       "description": "High-performance gaming laptop with powerful GPU and immersive display.",
       "specification": [
@@ -151,7 +151,7 @@
         "NVIDIA GTX 1660",
         "Intel i7 processor"
       ],
-      "availability": true,
+      "availability": "Not Available",
       "rating": 4.7,
       "color": "Black"
     },
@@ -168,14 +168,14 @@
         "Noise reduction",
         "Water-resistant"
       ],
-      "availability": true,
+      "availability": "Not Available",
       "rating": 4.4,
       "color": "Graphite"
     },
     {
-        "product_id": 1,
-        "product_title": "Smartphone X200",
-        "product_image": "https://i.ibb.co.com/LkRFBQJ/dej.webp",
+        "product_id": 11,
+        "product_title": "Laptop Pro 14",
+        "product_image": "https://i.ibb.co.com/WtkW4rG/Ajc3e.jpg",
         "category": "phones",
         "price": 799,
         "description": "A high-performance smartphone with an ultra-clear display and long-lasting battery.",
@@ -186,15 +186,15 @@
           "5000mAh battery",
           "5G compatible"
         ],
-        "availability": true,
+        "availability": "In Stock",
         "rating": 4.5,
         "color": "Space Gray"
       },
       {
-        "product_id": 2,
+        "product_id": 12,
         "product_title": "Laptop Pro 15",
-        "product_image": "https://i.ibb.co.com/87cYd1V/hp-elitebook.jpg",
-        "category": "computers",
+        "product_image": "https://i.ibb.co.com/syTTNBJ/images.jpg",
+        "category": "Laptops",
         "price": 1299,
         "description": "Powerful laptop with advanced graphics and seamless multitasking capability.",
         "specification": [
@@ -204,7 +204,7 @@
           "Intel i7 processor",
           "Integrated graphics"
         ],
-        "availability": true,
+        "availability": "In Stock",
         "rating": 4.8,
         "color": "Silver"
       }

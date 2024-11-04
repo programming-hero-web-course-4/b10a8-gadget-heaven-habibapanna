@@ -5,16 +5,15 @@ const Navbar = () => {
 
 const links = <>
             <li className=""><NavLink to="/">Home</NavLink></li>
-            <li className=""><a>Statistics</a></li>
-            <li className=""><a>Dashboard</a></li>
+            <li className=""><NavLink to="/statistics">Statistics</NavLink></li>
+            <li className=""><NavLink to="/dashboard">Dashboard</NavLink></li>
 
 </>
 
 
     return (
-        <div className="bg-purple-500 rounded-xl">
-         <div>
-         <div>
+        <div className="bg-purple-500 rounded-t-xl">
+         
          <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -52,21 +51,7 @@ const links = <>
         
       </div>
          </div>
-     <div className="">
-     <div className="py-10 pb-36">
-        <div className="text-white text-center">
-          <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
-            <p className="py-6 text-sm">
-            Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!.
-            </p>
-            <button className="bg-white rounded-3xl text-sm text-purple-700 font-semibold py-2 px-5">Shop Now</button>
-          </div>
-        </div>
-      </div>
-     </div>
-         </div>
-        </div>
+        
     );
 };
 

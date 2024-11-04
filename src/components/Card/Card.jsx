@@ -1,8 +1,9 @@
+import { NavLink } from "react-router-dom";
 
 
 const Card = ({ card }) => {
 
-const{ product_image, product_title, price, category, rating, color } = card;
+const{ product_image, product_title, price, category, rating, color,product_id } = card;
      
     return (
         <div>
@@ -16,12 +17,12 @@ const{ product_image, product_title, price, category, rating, color } = card;
     <h2 className="font-bold">{product_title}</h2>
     <div className="text-sm">
     <p className="text-gray-500">Category: {category}</p>
-    <p className="text-gray-500">Price: {price}</p>
+    <p className="text-gray-500">Price: $ {price}</p>
     <p className="text-gray-500 ">Rating: {rating}</p>
     <p className="text-gray-500">Color: {color}</p>
     </div>
     <div className="card-actions">
-    <button className="border border-purple-700 rounded-3xl text-sm text-purple-700  font-semibold py-2 px-5">All Product</button>
+    <button className="border border-purple-700 rounded-3xl text-sm text-purple-700  font-semibold py-2 px-5"><NavLink to={`/cards/${product_id}`}>View Details</NavLink></button>
     </div>
   </div>
 </div>

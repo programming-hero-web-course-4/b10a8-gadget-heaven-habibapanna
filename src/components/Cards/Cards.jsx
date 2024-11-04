@@ -12,7 +12,7 @@ useEffect(() => {
 },[])
 
     return (
-        <div className="mt-12 static">
+        <div className="mt-12">
             <h2 className="text-center font-bold text-xl mb-8">Explore Cutting-Edge Gadgets</h2>
            <div className="flex gap-5">
            <div className="">
