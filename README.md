@@ -1,10 +1,12 @@
 # React E-commerce Dashboard
 
 ## Live Website
-[Visit the Live Site](https://b10a8-gadget-heaven-assignment.surge.sh/dashboard)
+[Visit the Live Site]
+(https://b10a8-gadget-heaven-assignment.surge.sh/dashboard)
 
 ## Requirement Document
-[View Project Requirements](https://docs.google.com/document/d/1SCm1-metHXA_8Iika7R8UDcJZQGtDEKW-P2ieXQw5UE/edit?usp=sharing)
+[View Project Requirements]
+(https://docs.google.com/document/d/1SCm1-metHXA_8Iika7R8UDcJZQGtDEKW-P2ieXQw5UE/edit?usp=sharing)
 
 ## Project Overview
 This project is a React-based e-commerce dashboard where users can explore products, add items to their cart or wishlist, and view product details. The dashboard provides a smooth and intuitive experience, showcasing product functionalities and features to enhance user engagement.
