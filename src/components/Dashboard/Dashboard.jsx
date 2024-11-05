@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useNavigate } from "react-router-dom";
-import { getStoredAddList, getStoredAddWishList } from "../../utility/addToDb";
+import { addToStoredAddWishList, getStoredAddList, getStoredAddWishList } from "../../utility/addToDb";
 import Card from "../Card/Card";
 import ListedCards from "../ListedCards/ListedCards";
 import CardList from "../CardList/CardList";
 import WishList from "../WishList/WishList";
 import Modal from "../Modal/Modal";
+import {Helmet} from "react-helmet";
+  
 
 
 const Dashboard = () => {
@@ -36,7 +38,7 @@ const Dashboard = () => {
         setAddList(addCardList);
         setWishList(addWishList);
 
-    }, [allCards]);
+    }, [allCards, addList]);
 
     const handleSort = sortType => {
         setSort(sortType);
@@ -60,8 +62,22 @@ const Dashboard = () => {
         navigate("/");
     };
 
+    const handleRemove =(id) => {
+        removeAddList(id)
+        const updatedAddList = addList.filter((item) => item.product_id !== id);
+        setAddList(updatedAddList);
+    };
+
     return (
         <div>
+
+<Helmet>
+                  <meta charSet="utf-8" />
+                  <title>Dashboard | Gadget Heaven</title>
+                  <link rel="canonical" href="https://i.ibb.co.com/MfKXYWX/favicon-16x16.png" />
+              </Helmet>
+
+
             <div className="bg-purple-500 ">
                 <div className="hero-content text-center">
                     <div className="max-w-xl">
@@ -91,7 +107,7 @@ const Dashboard = () => {
                     </div>
                     <div className="grid grid-cols-1 gap-5 max-w-2xl mx-auto">
                         {
-                            addList.map(card => (<CardList key={card.product_id} card={card}></CardList>))
+                            addList.map(card => (<CardList handleRemove={() => handleRemove(card.product_id)} key={card.product_id} card={card}></CardList>))
                         }
                     </div>
                 </>

@@ -3,7 +3,7 @@
       "product_id": 1,
       "product_title": "Smartphone X200",
       "product_image": "https://i.ibb.co.com/LkRFBQJ/dej.webp",
-      "category": "phones",
+      "category": "Phones",
       "price": 799,
       "description": "A high-performance smartphone with an ultra-clear display and long-lasting battery.",
       "specification": [
@@ -39,7 +39,7 @@
       "product_id": 3,
       "product_title": "Smart Watch Series 5",
       "product_image": "https://i.ibb.co.com/1nbxwp9/71R.jpg",
-      "category": "smart watches",
+      "category": "Smart Watches",
       "price": 349,
       "description": "Stay connected with this feature-rich smartwatch, perfect for fitness and health tracking.",
       "specification": [
@@ -73,7 +73,7 @@
       "product_id": 5,
       "product_title": "Portable Power Bank 20000mAh",
       "product_image": "https://i.ibb.co.com/StbVqPf/420-75-lg.jpg",
-      "category": "power banks",
+      "category": "Power Banks",
       "price": 99,
       "description": "High-capacity power bank with fast charging capability for multiple devices.",
       "specification": [
@@ -107,7 +107,7 @@
       "product_id": 7,
       "product_title": "Smart Watch Series 4",
       "product_image": "https://i.ibb.co.com/D4Y7LRs/653.jpg",
-      "category": "smart watches",
+      "category": "Smart Watches",
       "price": 199,
       "description": "Experience immersive sound with these noise-canceling wireless earbuds.",
       "specification": [
@@ -124,7 +124,7 @@
       "product_id": 8,
       "product_title": "Smartphone S10 Lite",
       "product_image": "https://i.ibb.co.com/r3wpyr1/jbn.webp",
-      "category": "phones",
+      "category": "Phones",
       "price": 499,
       "description": "Budget-friendly smartphone with powerful performance and sleek design.",
       "specification": [
@@ -159,7 +159,7 @@
       "product_id": 10,
       "product_title": "Wireless power banks",
       "product_image": "https://i.ibb.co.com/42y9YtW/A1223H11.webp",
-      "category": "power banks",
+      "category": "Power Banks",
       "price": 149,
       "description": "Premium wireless earbuds with excellent sound quality and noise reduction.",
       "specification": [
@@ -176,7 +176,7 @@
         "product_id": 11,
         "product_title": "Laptop Pro 14",
         "product_image": "https://i.ibb.co.com/WtkW4rG/Ajc3e.jpg",
-        "category": "phones",
+        "category": "Laptops",
         "price": 799,
         "description": "A high-performance smartphone with an ultra-clear display and long-lasting battery.",
         "specification": [

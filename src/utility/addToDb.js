@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { toast } from "react-toastify";
 
 const getStoredAddList = () => {
@@ -14,13 +15,13 @@ else{
 const addToStoredAddList = (id) => {
     const storedList = getStoredAddList();
 if(storedList.includes(id)){
-    toast('Already exists in the card list');
+    toast('Already exists in the card list!');
 }
 else{
     storedList.push(id);
     const storedListStr = JSON.stringify(storedList);
     localStorage.setItem('add-list', storedListStr);
-    toast('This product is added to card.')
+    toast('This product is added to card!')
 }
 }
 
@@ -38,14 +39,22 @@ const getStoredAddWishList = () => {
     const addToStoredAddWishList = (id) => {
         const storedWishList = getStoredAddWishList();
     if(storedWishList.includes(id)){
-        toast('Already exists in the wish list');
+        toast('Already exists in the wish list!');
     }
     else{
         storedWishList.push(id);
         const storedWishListStr = JSON.stringify(storedWishList);
         localStorage.setItem('wish-list', storedWishListStr);
-        toast('This product is added to wish list.')
+        toast('This product is added to wish list!');
     }
     }
 
-export { addToStoredAddList, addToStoredAddWishList, getStoredAddList, getStoredAddWishList }
+const removeAddList = (id) => {
+    const storedList = getStoredAddList();
+    const remaining = storedList.filter(product_id => product_id != id);
+    localStorage.setItem('add-list', JSON.stringify(remaining));
+    toast('This product is remove from card!');
+};
+
+
+export { addToStoredAddList, addToStoredAddWishList, getStoredAddList, getStoredAddWishList, removeAddList }

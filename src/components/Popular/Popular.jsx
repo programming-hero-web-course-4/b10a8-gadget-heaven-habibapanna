@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
+import { Helmet } from "react-helmet";
 
 
 const Popular = () => {
@@ -15,6 +16,13 @@ const Popular = () => {
 
     return (
         <div>
+
+<Helmet>
+                  <meta charSet="utf-8" />
+                  <title>Popular | Gadget Heaven</title>
+                  <link rel="canonical" href="https://i.ibb.co.com/MfKXYWX/favicon-16x16.png" />
+              </Helmet>
+
 <div className="bg-purple-500 ">
   <div className="hero-content text-center">
     <div className="max-w-xl">

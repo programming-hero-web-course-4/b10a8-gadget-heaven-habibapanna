@@ -27,9 +27,9 @@ const card = data.find(card => card.product_id === id)
 
 
     return (
-        <div className="">
+        <div className="relative mb-96">
             <div>
-            <div className="bg-purple-500 ">
+            <div className="bg-purple-500 relative pb-36">
   <div className="hero-content text-center">
     <div className="max-w-xl">
       <h1 className="text-3xl font-bold text-white">Product Details</h1>
@@ -40,7 +40,7 @@ const card = data.find(card => card.product_id === id)
   </div>
 </div>
             </div>
-            <div className="bg-white max-w-3xl mx-auto rounded-xl">
+            <div className="bg-white max-w-4xl mx-auto rounded-xl absolute top-36 md:ml-32">
   <div className="hero-content flex-col lg:flex-row">
     <img
       src={product_image}

@@ -1,8 +1,15 @@
-
+import { Helmet } from "react-helmet";
 
 const Statistics = () => {
     return (
-        <div>
+        <div className="mb-24">
+
+<Helmet>
+                  <meta charSet="utf-8" />
+                  <title>Statistics | Gadget Heaven</title>
+                  <link rel="canonical" href="https://i.ibb.co.com/MfKXYWX/favicon-16x16.png" />
+              </Helmet>
+
              <div className="bg-purple-500 ">
   <div className="hero-content text-center">
     <div className="max-w-xl">

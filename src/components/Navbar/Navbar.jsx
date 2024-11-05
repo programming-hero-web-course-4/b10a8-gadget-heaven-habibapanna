@@ -1,20 +1,25 @@
 import { NavLink } from "react-router-dom";
-
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
 
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
 const links = <>
-            <li className=""><NavLink to="/">Home</NavLink></li>
-            <li className=""><NavLink to="/statistics">Statistics</NavLink></li>
-            <li className=""><NavLink to="/dashboard">Dashboard</NavLink></li>
-            <li><NavLink to="popular">Popular</NavLink></li>
+            <li className=""><NavLink to="/" className={`${isHomePage ? 'text-white' : 'text-purple-500'}`}>Home</NavLink></li>
+            <li className=""><NavLink to="/statistics" className={`${isHomePage ? 'text-white' : 'text-purple-500'}`}>Statistics</NavLink></li>
+            <li className=""><NavLink to="/dashboard" className={`${isHomePage ? 'text-white' : 'text-purple-500'}`}>Dashboard</NavLink></li>
+            <li><NavLink to="popular" className={`${isHomePage ? 'text-white' : 'text-purple-500'}`}>Popular</NavLink></li>
 
 </>
 
 
     return (
-        <div className="bg-purple-500 rounded-t-xl">
-         
+
+       <div>
+        <nav className={`${isHomePage ? 'bg-purple-500' : 'bg-white'}`}>
+        <div className=" rounded-t-xl">
          <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -38,7 +43,7 @@ const links = <>
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-white text-xl">Gadget Heaven</a>
+          <a className={`${isHomePage ? 'text-white font-bold text-xl' : 'text-purple-500 font-bold'}`}>Gadget Heaven</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="text-white menu menu-horizontal px-1">
@@ -47,11 +52,14 @@ const links = <>
         </div>
         <div className="navbar-end ">
           <a className=""><i className="p-2 text-gray-500 mr-2 rounded-full bg-white fa-solid fa-cart-shopping"></i></a>
+          
           <i className="p-2 text-gray-500 rounded-full bg-white fa-regular fa-heart"></i>
         </div>
         
       </div>
          </div>
+        </nav>
+       </div>
         
     );
 };
