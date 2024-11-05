@@ -1,7 +1,7 @@
 # React E-commerce Dashboard
 
 ## Live Website
-[Visit the Live Site]()
+[Visit the Live Site](https://b10a8-gadget-heaven-assignment.surge.sh/dashboard)
 
 ## Requirement Document
 [View Project Requirements](https://docs.google.com/document/d/1SCm1-metHXA_8Iika7R8UDcJZQGtDEKW-P2ieXQw5UE/edit?usp=sharing)
