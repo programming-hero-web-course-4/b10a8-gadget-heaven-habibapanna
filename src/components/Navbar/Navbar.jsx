@@ -7,6 +7,7 @@ const links = <>
             <li className=""><NavLink to="/">Home</NavLink></li>
             <li className=""><NavLink to="/statistics">Statistics</NavLink></li>
             <li className=""><NavLink to="/dashboard">Dashboard</NavLink></li>
+            <li><NavLink to="popular">Popular</NavLink></li>
 
 </>
 

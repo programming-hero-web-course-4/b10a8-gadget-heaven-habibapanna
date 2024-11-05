@@ -4,11 +4,11 @@ const CardList = ({ card }) => {
     const{ product_image, product_title, price, product_id,description } = card;
     return (
         <div>
-            <h2>Card List</h2>
             <div className="flex bg-white rounded-xl shadow-xl">
             <div className="card card-side bg-white">
-  <figure className="w-2/5 ">
+  <figure className="w-2/5 p-5">
     <img
+    className=' rounded-lg'
       src={product_image}
       alt={product_id} />
   </figure>
@@ -20,7 +20,7 @@ const CardList = ({ card }) => {
 </div>
 
 <div>
-<button><i class="fa-solid fa-xmark text-red-500 text-xl"></i></button>
+<button><i class="fa-solid fa-xmark text-red-500 text-xl  py-16 mr-10"></i></button>
 </div>
             </div>
         </div>

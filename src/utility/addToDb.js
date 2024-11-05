@@ -14,7 +14,7 @@ else{
 const addToStoredAddList = (id) => {
     const storedList = getStoredAddList();
 if(storedList.includes(id)){
-    toast('Already exists in the add list');
+    toast('Already exists in the card list');
 }
 else{
     storedList.push(id);
@@ -43,7 +43,7 @@ const getStoredAddWishList = () => {
     else{
         storedWishList.push(id);
         const storedWishListStr = JSON.stringify(storedWishList);
-        localStorage.setItem('add-list', storedWishListStr);
+        localStorage.setItem('wish-list', storedWishListStr);
         toast('This product is added to wish list.')
     }
     }

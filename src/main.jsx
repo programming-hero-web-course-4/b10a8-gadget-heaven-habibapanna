@@ -13,6 +13,7 @@ import CardDetails from './components/CardDetails/CardDetails';
 import Statistics from './components/Statistics/Statistics';
 import { ToastContainer } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import Popular from './components/Popular/Popular';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         path: 'dashboard',
         element: <Dashboard></Dashboard>,
         loader: () => fetch('/products.json')
+      },
+      {
+        path: 'popular',
+        element: <Popular></Popular>
       }
     ]
   },
