@@ -51,9 +51,11 @@ const links = <>
           </ul>
         </div>
         <div className="navbar-end ">
-          <a className=""><i className="p-2 text-gray-500 mr-2 rounded-full bg-white fa-solid fa-cart-shopping"></i></a>
+          <i className="p-2 text-gray-500 mr-2 rounded-full bg-white fa-solid fa-cart-shopping"></i>
+          
           
           <i className="p-2 text-gray-500 rounded-full bg-white fa-regular fa-heart"></i>
+          
         </div>
         
       </div>

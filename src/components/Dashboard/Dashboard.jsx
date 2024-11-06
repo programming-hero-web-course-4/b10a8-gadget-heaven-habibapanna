@@ -1,16 +1,14 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useNavigate } from "react-router-dom";
 import { addToStoredAddWishList, getStoredAddList, getStoredAddWishList } from "../../utility/addToDb";
-import Card from "../Card/Card";
-import ListedCards from "../ListedCards/ListedCards";
 import CardList from "../CardList/CardList";
 import WishList from "../WishList/WishList";
 import Modal from "../Modal/Modal";
 import {Helmet} from "react-helmet";
-  
 
 
 const Dashboard = () => {
+    
     // purchase
     const [isModalOpen, setIsModalOpen] = useState(false);
     const navigate = useNavigate();
@@ -63,6 +61,11 @@ const Dashboard = () => {
         navigate("/");
     };
 
+
+
+
+
+
     return (
         <div>
 
@@ -71,7 +74,6 @@ const Dashboard = () => {
                   <title>Dashboard | Gadget Heaven</title>
                   <link rel="canonical" href="https://i.ibb.co.com/MfKXYWX/favicon-16x16.png" />
               </Helmet>
-
 
             <div className="bg-purple-500 ">
                 <div className="hero-content text-center">
