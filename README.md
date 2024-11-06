@@ -2,7 +2,7 @@
 
 ## Live Website
 [Visit the Live Site]
-(https://b10a8-gadget-heaven-assignment.surge.sh/dashboard)
+(https://b10a8-gadget-heaven-assignment.surge.sh/)
 
 ## Requirement Document
 [View Project Requirements]
