@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useNavigate } from "react-router-dom";
-import { addToStoredAddWishList, getStoredAddList, getStoredAddWishList } from "../../utility/addToDb";
+import { getStoredAddList, getStoredAddWishList } from "../../utility/addToDb";
 import CardList from "../CardList/CardList";
 import WishList from "../WishList/WishList";
 import Modal from "../Modal/Modal";
@@ -21,6 +21,8 @@ const Dashboard = () => {
     const [wishList, setWishList] = useState([]);
     const allCards = useLoaderData();
     useEffect(() => {
+        // clearStoredAddList();
+        // clearStoredWishList();
         const storedAddList = getStoredAddList() || [];
         const storedWishList = getStoredAddWishList() || [];
 

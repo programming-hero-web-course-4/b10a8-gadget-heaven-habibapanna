@@ -49,5 +49,13 @@ const getStoredAddWishList = () => {
     }
     }
 
+    // const clearStoredAddList = () => {
+    //     localStorage.removeItem("add-list");
+    // };
+    // const clearStoredWishList = () => {
+    //     localStorage.removeItem("wish-list");
+    // };
+
+
 
 export { addToStoredAddList, addToStoredAddWishList, getStoredAddList, getStoredAddWishList }
