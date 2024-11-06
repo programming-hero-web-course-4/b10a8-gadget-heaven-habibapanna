@@ -49,12 +49,5 @@ const getStoredAddWishList = () => {
     }
     }
 
-const removeAddList = (id) => {
-    const storedList = getStoredAddList();
-    const remaining = storedList.filter(product_id => product_id != id);
-    localStorage.setItem('add-list', JSON.stringify(remaining));
-    toast('This product is remove from card!');
-};
 
-
-export { addToStoredAddList, addToStoredAddWishList, getStoredAddList, getStoredAddWishList, removeAddList }
+export { addToStoredAddList, addToStoredAddWishList, getStoredAddList, getStoredAddWishList }

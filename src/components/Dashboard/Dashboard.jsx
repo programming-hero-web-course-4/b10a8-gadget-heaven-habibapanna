@@ -38,14 +38,15 @@ const Dashboard = () => {
         setAddList(addCardList);
         setWishList(addWishList);
 
-    }, [allCards, addList]);
+    }, [allCards]);
 
     const handleSort = sortType => {
-        setSort(sortType);
-
-        const sortedCardList = [...addList].sort((a, b) => b.price - a.price);
+        setSort(sortType)
+            const sortedCardList = [...addList].sort((a, b) => b.price - a.price);
         setAddList(sortedCardList);
-    }
+        };
+    
+    
    
     const calculateTotalPrice = () => {
         return addList.reduce((total, item) => total + item.price, 0);
@@ -60,12 +61,6 @@ const Dashboard = () => {
     const closeModal = () => {
         setIsModalOpen(false);
         navigate("/");
-    };
-
-    const handleRemove =(id) => {
-        removeAddList(id)
-        const updatedAddList = addList.filter((item) => item.product_id !== id);
-        setAddList(updatedAddList);
     };
 
     return (
@@ -100,14 +95,14 @@ const Dashboard = () => {
                         </div>
                         <div className="py-10">
                             <button className="text-black font-bold mr-2">Total cost: ${calculateTotalPrice().toFixed(2)}</button>
-                            <button onClick={() => handleSort('Sort by Price')} className="rounded-3xl mr-2 border border-purple-600 bg-white text-purple-600 px-5 py-3">Sort by Price <i class="fa-solid fa-sort ml-2"></i></button>
+                            <button onClick={()=>handleSort('sort by price')} className="rounded-3xl mr-2 border border-purple-600 bg-white text-purple-600 px-5 py-3">Sort by Price<i class="fa-solid fa-sort ml-2"></i></button>
                             <button onClick={handlePurchase}
                             disabled={addList.length === 0 || calculateTotalPrice() === 0 } className="rounded-3xl border bg-purple-600 text-white px-5 py-3 disabled:opacity-50">Purchase</button>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 gap-5 max-w-2xl mx-auto">
                         {
-                            addList.map(card => (<CardList handleRemove={() => handleRemove(card.product_id)} key={card.product_id} card={card}></CardList>))
+                            addList.map(card => (<CardList  key={card.product_id} card={card}></CardList>))
                         }
                     </div>
                 </>
