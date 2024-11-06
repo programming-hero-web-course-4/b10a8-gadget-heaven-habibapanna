@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useNavigate } from "react-router-dom";
-import { getStoredAddList, getStoredAddWishList } from "../../utility/addToDb";
+import { getStoredAddList, getStoredAddWishList, removeAddList } from "../../utility/addToDb";
 import CardList from "../CardList/CardList";
 import WishList from "../WishList/WishList";
 import Modal from "../Modal/Modal";
@@ -63,7 +63,12 @@ const Dashboard = () => {
         navigate("/");
     };
 
+const handleRemove = (id) => {
+removeAddList(id)
 
+const storedAddList = getStoredAddList() || [];
+setAddList(storedAddList)
+}
 
 
 
@@ -106,7 +111,7 @@ const Dashboard = () => {
                     </div>
                     <div className="grid grid-cols-1 gap-5 max-w-2xl mx-auto">
                         {
-                            addList.map(card => (<CardList  key={card.product_id} card={card}></CardList>))
+                            addList.map(card => (<CardList handleRemove={handleRemove}  key={card.product_id} card={card}></CardList>))
                         }
                     </div>
                 </>

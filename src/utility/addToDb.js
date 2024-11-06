@@ -49,6 +49,13 @@ const getStoredAddWishList = () => {
     }
     }
 
+    const removeAddList = id => {
+        const storedList = getStoredAddList()
+        const remaining = storedList.filter(item => item.id !== id)
+    localStorage.setItem('add-list', JSON.stringify (remaining));
+    toast('This product is removed!')
+    }
+
     // const clearStoredAddList = () => {
     //     localStorage.removeItem("add-list");
     // };
@@ -58,4 +65,4 @@ const getStoredAddWishList = () => {
 
 
 
-export { addToStoredAddList, addToStoredAddWishList, getStoredAddList, getStoredAddWishList }
+export { addToStoredAddList, addToStoredAddWishList, getStoredAddList, getStoredAddWishList, removeAddList }

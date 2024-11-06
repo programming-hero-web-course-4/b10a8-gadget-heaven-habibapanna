@@ -1,6 +1,6 @@
 import './CardList.css'
 
-const CardList = ({ card }) => {
+const CardList = ({ card, handleRemove }) => {
     const{ product_image, product_title, price, product_id,description } = card;
     return (
         <div className=''>
@@ -18,10 +18,10 @@ const CardList = ({ card }) => {
         <p className="text-gray-500 text-sm">Price: $ {price}</p>
   </div>
 </div>
-
 <div>
-<button><i class="fa-solid fa-xmark text-red-500 text-xl  py-16 mr-10"></i></button>
+<i onClick={() => handleRemove(product_id)} class="fa-solid fa-xmark text-red-500 text-xl py-16 mr-10"></i>
 </div>
+
             </div>
         </div>
     );
